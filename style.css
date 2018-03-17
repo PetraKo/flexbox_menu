@@ -1,0 +1,49 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+*, :after, :before { box-sizing: border-box; }
+
+body {
+	font-family: sans-serif;
+}
+
+
+.hlavicka {
+	background-color: #3498db;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+a {
+	display: block;
+	padding: 5px 15px;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white;
+	color: #3498db;
+}
+
+.menu {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+
+.logo {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 20px;
+}
+
+a {
+	width: 100px;
+	text-align: center;
+}
+
+/* ---------------------------------------------------- */
